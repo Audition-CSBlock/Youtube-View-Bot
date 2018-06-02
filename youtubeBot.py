@@ -19,7 +19,6 @@ def LoadUserAgents(uafile=USER_AGENTS_FILE):
 uas = LoadUserAgents()
 
 while RUNNING == True:
-    address = []
     ip = []
     port = []
     
