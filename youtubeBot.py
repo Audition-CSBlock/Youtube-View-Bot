@@ -1,7 +1,5 @@
-import random, time, requests, selenium
+import random, time, requests
 from selenium import webdriver
-from selenium.webdriver.common.proxy import Proxy
-from selenium.webdriver.common.proxy import ProxyType
 from bs4 import BeautifulSoup
 
 USER_AGENTS_FILE = './user_agents.txt'
